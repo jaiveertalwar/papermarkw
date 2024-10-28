@@ -42,9 +42,9 @@ export const sendEmail = async ({
       from: marketing
         ? "Marc from Papermark <marc@ship.papermark.io>"
         : system
-          ? "Papermark <system@papermark.io>"
+          ? "Papermark <system@mail.api.jtlr.org>"
           : verify
-            ? "Papermark <system@verify.papermark.io>"
+            ? "Papermark <system@mail.api.jtlr.org>"
             : !!scheduledAt
               ? "Marc Seitz <marc@papermark.io>"
               : "Marc from Papermark <marc@papermark.io>",
